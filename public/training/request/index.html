@@ -93,7 +93,8 @@
 <div class="grid middle">
 
 <div class="body-text" id="blocks-contentarea-59"><p>Please complete this request form and press the "Submit" button at the bottom.</p></div>
-<form id="training-request" name="Training Request" method="post" netlify>
+<form id="training-request" method="post">
+  <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='65f3b348526bd13c558e75a2909fa948' /></div>
   <ul>
     <li><label for="id_name">Name *:</label> <input id="id_name" type="text" name="name" maxlength="120" /></li>
 <li><label for="id_organisation">Organisation *:</label> <input id="id_organisation" type="text" name="organisation" maxlength="120" /></li>
