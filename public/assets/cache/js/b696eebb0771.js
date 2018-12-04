@@ -1962,7 +1962,7 @@ try {
   });
 })($);
 $(function(){
-  //<script type="text/javascript" charset="utf-8" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  //<script type="text/javascript" charset="utf-8" src="https://maps.google.com/maps/api/js?sensor=false"></script>
   // to get lat and lng from google maps: javascript:void(prompt('',gApplication.getMap().getCenter()))
   function initMap(el){
     var lat = parseFloat(el.getAttribute('data-lat'));
